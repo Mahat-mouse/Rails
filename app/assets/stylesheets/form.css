@@ -1,0 +1,114 @@
+/* General body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #ff6f61;
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+/* Form container styles */
+.form-container {
+    
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(11, 11, 11, 0.1);
+}
+
+/* Error message styles */
+#error_explanation {
+    background-color: #fef0f0;
+    border: 1px solid #f5c6c6;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#error_explanation h2 {
+    color: #d9534f;
+    margin-top: 0;
+}
+
+#error_explanation ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#error_explanation li {
+    color: #d9534f;
+}
+
+/* Form field styles */
+.field {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: normal;
+    margin-bottom: 5px;
+    display: block;
+    color: #666;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    max-width: 400px; /* Restrict max-width to prevent full-screen coverage */
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e65c50;
+}
+
+/* Back link styles */
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    border: 1px solid #ff6f61;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}

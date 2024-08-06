@@ -1,0 +1,34 @@
+<h1>Hello I Am Friends App!!!</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Contact Number</th>
+            <th>Delete Friend</th>
+            <th>Update Friend</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @friends.each do |friend| %>
+            <tr>
+                <td><%= friend.firstName %></td>
+                <td><%= friend.lastName %></td>
+                <td><%= friend.email %></td>
+                <td><%= friend.contactNumber %> </td>
+                <td><%= link_to 'Delete', friend, data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                }%></td>
+                <td><%=link_to 'Update' , edit_friend_path(friend)  %> </td>
+            </tr>
+            <% end %>  
+    </tbody>
+
+</table>
+<div>
+<%= link_to "Add new friends", friends_new_path %>
+</div>

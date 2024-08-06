@@ -1,0 +1,93 @@
+/* General body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #ff6f61;
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+/* Table container styles */
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styles */
+thead {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+/* Table body styles */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table link styles */
+a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+    border: 1px solid #ff6f61;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Add new friends link container */
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Add new friends link styles */
+a.add-new {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+a.add-new:hover {
+    background-color: #e65c50;
+}
