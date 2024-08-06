@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 # Friends-App-on-rails
 # Friendsapp-on-rails
+# Friendsapp-on-rails
